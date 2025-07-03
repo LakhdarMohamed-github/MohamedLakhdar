@@ -388,7 +388,7 @@ function App() {
                       href={`mailto:${resumeData.contact.email}`}
                       className="text-light text-decoration-none"
                     >
-                      {resumeData.contact.email}
+                      Email
                     </a>
                   </div>
                 </Col>
@@ -423,7 +423,7 @@ function App() {
                 <Col md={3} className="mb-4">
                   <div className="contact-item">
                     <img
-                    src="public/fiverr.png"
+                    src="fiverr.png"
                     alt="Fiverr"
                     width="48"
                     height="48"
