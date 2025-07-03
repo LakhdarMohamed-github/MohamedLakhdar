@@ -144,7 +144,7 @@ function App() {
 
       {/* Hero Section */}
       <section id="home" className="hero-section bg-primary text-white py-5">
-        <Container>
+        <Container className="custom-container">
           <Row className="align-items-center min-vh-100">
             <Col lg={6} className="text-center text-lg-start">
               <h1 className="display-4 fw-bold mb-3">
