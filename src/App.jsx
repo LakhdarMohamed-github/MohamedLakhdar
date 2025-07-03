@@ -380,19 +380,7 @@ function App() {
           <Row className="justify-content-center">
             <Col lg={8}>
               <Row className="text-center">
-                <Col md={3} className="mb-4">
-                  <div className="contact-item">
-                    <i className="bi bi-envelope-fill display-6 text-primary mb-3"></i>
-                    <h5 className="fw-bold">Email</h5>
-                    <a 
-                      href={`mailto:${resumeData.contact.email}`}
-                      className="text-light text-decoration-none"
-                    >
-                      Email
-                    </a>
-                  </div>
-                </Col>
-                <Col md={3} className="mb-4">
+                <Col md={4} className="mb-4">
                   <div className="contact-item">
                     <i className="bi bi-linkedin display-6 text-primary mb-3"></i>
                     <h5 className="fw-bold">LinkedIn</h5>
@@ -406,7 +394,7 @@ function App() {
                     </a>
                   </div>
                 </Col>
-                <Col md={3} className="mb-4">
+                <Col md={4} className="mb-4">
                   <div className="contact-item">
                     <i className="bi bi-github display-6 text-primary mb-3"></i>
                     <h5 className="fw-bold">GitHub</h5>
@@ -420,7 +408,7 @@ function App() {
                     </a>
                   </div>
                 </Col>
-                <Col md={3} className="mb-4">
+                <Col md={4} className="mb-4">
                   <div className="contact-item">
                     <img
                     src="fiverr.png"
