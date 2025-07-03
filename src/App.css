@@ -264,4 +264,8 @@ a:focus {
     border: 1px solid #ddd !important;
   }
 }
-
+@media (max-width: 768px) {
+  .custom-container {
+    padding-top: inherit; /* Or 0, or another value */
+  }
+}
