@@ -90,7 +90,7 @@ function App() {
         institution: "FST SETTAT"
       },
       {
-        degree: "Degree in computer development",
+        degree: "Specialized Technician Diploma in Software Development",
         duration: "2018-2020",
         institution: "Institute of Management and Computer Science (ISGI) - Casablanca"
       },
