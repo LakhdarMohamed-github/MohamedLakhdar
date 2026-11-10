@@ -2,11 +2,12 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Navbar, Nav, Row, Col, Card, Button, Badge } from 'react-bootstrap';
 import './App.css';
+import SelectedProjects from './components/projects/SelectedProjects';
 
 function App() {
   const resumeData = {
     name: "Mohamed Lakhdar",
-    title: "Software Developer",
+    title: "Software Engineer",
     contact: {
       email: "mohamed.lakhdar.pro@gmail.com",
       phone: "+212 704-735099",
@@ -31,7 +32,7 @@ function App() {
         environment: "Java, Spring Boot, PHP, Laravel, Javascript; Wordpress"
       },
       {
-        title: "Payment System Developer / XPI (Expanded Payment International)",
+        title: "Payment System Engineer / XPI (Expanded Payment International)",
         duration: "April 2021 - June 2022",
         location: "Morocco",
         description: [
@@ -52,7 +53,7 @@ function App() {
         environment: "Java EE, Spring Boot, Angular 8, Hibernate, PostgreSQL, HTML5, CSS3, JavaScript, Tomcat, Rest, JSON, XML"
       },
       {
-        title: "internship / PH SOLUTION",
+        title: "Internship / PH SOLUTION",
         duration: "December 2020 – April 2021",
         location: "Morocco",
         description: [
@@ -66,7 +67,7 @@ function App() {
         environment: "PHP, PostgreSQL, Wordpress, JavaScript, HTML5, CSS3"
       },
       {
-        title: "internship / LYDEC",
+        title: "Internship / LYDEC",
         duration: "January 2020 - February 2020",
         location: "Morocco",
         description: [
@@ -84,6 +85,16 @@ function App() {
       environments: "Intelij Idea, Git, GitHub, PhpStorm, Visual Studio."
     },
     education: [
+      {
+        degree: "Master's Degree, Computer Software Engineering",
+        duration: "2026",
+        institution: "SUP2I"
+      },
+      {
+        degree: "Master of Business Administration (MBA)",
+        duration: "2026",
+        institution: "WESFORD CLERMONT Business School"
+      },
       {
         degree: "Bachelor's degree in software engineering",
         duration: "2020-2021",
@@ -165,7 +176,7 @@ function App() {
                 >
                   Get In Touch
                 </Button>
-                <a href="/Mohamed Lakhdar CV.pdf" download>
+                <a href="/CV_MOHAMED_LAKHDAR_EN.pdf" download>
                 <Button 
                   variant="outline-light" 
                   size="lg"
@@ -179,7 +190,7 @@ function App() {
             <Col lg={6} className="text-center">
               <div className="profile-image-container">
                 <img 
-                  src="/profile-pic.png" 
+                  src="/profile.png" 
                   alt={resumeData.name}
                   className="img-fluid rounded-circle shadow-lg profile-image"
                   style={{ maxWidth: '400px', width: '100%' }}
@@ -303,6 +314,8 @@ function App() {
           </Row>
         </Container>
       </section>
+
+      <SelectedProjects />
 
       {/* Skills Section */}
       <section id="skills" className="py-5 bg-light">

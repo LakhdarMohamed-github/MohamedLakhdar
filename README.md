@@ -1,6 +1,6 @@
 # Lakhdar Mohamed - Portfolio Website
 
-A professional portfolio website built with React.js and Bootstrap, showcasing the skills, experience, and projects of Mohamed Lakhdar, a Software Developer.
+A professional portfolio website built with React.js and Bootstrap, showcasing the skills, experience, and projects of Mohamed Lakhdar, a Software Engineer.
 
 ## Features
 
